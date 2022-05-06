@@ -1,0 +1,26 @@
+.LeftSidebar{
+
+
+ background-color:#f3f3f3 ;
+    max-width: 25%;
+
+  
+    height: 1000px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3px;
+
+}
+.arrow1{
+    height: 10pox;
+    margin-left: 3px;
+    width: 60px;
+    margin-top: 15px;
+}
+.backtoStage{
+    margin-top: 15px;
+}

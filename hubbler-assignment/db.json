@@ -1,0 +1,64 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Hubbler Assignment",
+      "staus": "true"
+    },
+    {
+      "title": "New task is added",
+      "status": false,
+      "id": "okUPCUX"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "2sk1YmP"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "ljMWWAm"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "8fVKPyI"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "YVd-368"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "yuy6-tD"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "gYoW9YE"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "4-YpPrm"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "H0YKPF9"
+    },
+    {
+      "title": "",
+      "status": false,
+      "id": "FFqT28y"
+    },
+    {
+      "title": "New Rule is being added",
+      "status": false,
+      "id": "8QwrTwg"
+    }
+  ]
+}

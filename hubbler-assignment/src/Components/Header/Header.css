@@ -1,0 +1,72 @@
+.HelloHeader{
+    background-color:#f3f3f3 ;
+    height: 70px;
+    margin-top: 0;
+
+    width: 100%;
+    display: flex;
+}
+
+.HelloHeader > div{
+
+    margin-left: 15px;
+    line-height: 0.5px;
+}
+.img{
+    height: 40pox;
+    margin-left: 3px;
+    width: 60px;
+    margin-top: 15px;
+}
+.img1{
+    height: 40pox;
+  
+    width: 60px;
+    margin-top: 15px;
+}
+.appname{
+ text-align: center;
+ font-size: 14px;
+}
+.grtSymbol{
+    height: 200px;
+  
+}
+.textbtn{
+    text-align: center;
+    margin-top: 44px;
+
+}
+.HelloHeader>div{
+    
+}
+
+.HelloHeader1{
+    background-color:#f3f3f3 ;
+    height: 70px;
+    margin-top: 0;
+
+    width: 70%;
+    display: flex;
+}
+
+.HelloHeader1 > div{
+ 
+    margin:  5px;
+    line-height: 0.5px;
+}
+.date{
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 45px;
+
+}
+.button{
+    margin-top: 36px;
+    height: 25px;
+    width: 55px;
+    text-align: center;
+    font-size: 18px;
+}
