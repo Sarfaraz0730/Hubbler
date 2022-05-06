@@ -1,0 +1,103 @@
+.rightsideDiv{
+    height:100%;
+   
+   margin-top: 15px;
+    max-width: 100%;
+    width: 1050px;
+    background-color: #fbf9f9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    
+
+}
+.d{
+    margin: 20px;
+    padding: 10px;
+}
+.inputbox{
+    height: 25px;
+    width: 190px;
+    text-align: center;
+    border: none;
+  
+    padding: 5px;
+  
+}
+.selectbox{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    border: none;
+  
+    padding: 5px;
+}
+.selectbox1{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border: none;
+  
+    padding: 5px;
+}
+.flexselect{
+    display: flex;
+}
+.condition{
+  
+    text-align: center;
+    margin-left: 10px;
+    font-size: 12px;
+    font-size: small;
+}
+
+.lotsOfButtonInaRow{
+    display: flex;
+ 
+  
+    border: 1px solid red;
+}
+.urgentbtndiv{
+    height: 65px;
+    width: 150px;
+    text-align: center;
+    margin-top: 7px;
+
+}
+.urgentButton{
+    width: 150px;
+    text-align: center;
+   
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+  
+  
+    padding: 3px;
+}
+
+.inputbox1{
+    height: 34px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    margin-left: 15px;
+  
+    border: none;
+    margin-top: 5px;
+  
+    padding: 5px;
+  
+}
+.inputbox2{
+    height: 34px;
+    width: 100px;
+
+    border: none;
+    text-align: right;
+
+  
+    border: none;
+    margin-top: 5px;
+  
+    padding: 5px;
+  
+}

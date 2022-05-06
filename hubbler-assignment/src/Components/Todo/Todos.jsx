@@ -2,10 +2,11 @@ import { useDispatch, useSelector } from "react-redux"
 import { addTodo, addTodoLoading, addTodoLoadingSuccess, getTodoLoading, getTodoLoadingSuccess } from "../../Redux/action"
 import { useEffect, useState } from "react"
 import axios from 'axios'
-
+import './Todos.css'
 
 
 const Todos = () => {
+
 
  
     const {loading, data, error} = useSelector((store) =>store.todos)
@@ -34,11 +35,13 @@ const Todos = () => {
   return  loading ? "Loading...": (
     <div>
    <hr />
-   <h3>Todos App in Redux</h3>
+   
    <input onChange={ (e) => setText(e.target.value)}       type="text"  placeholder="Enter Rule"  required  />
-   <button  onClick={() =>{
+   <br />
+   <button  className="todosBtn"  onClick={() =>{
       //  disptach(addTodo({id:Date.now(),title:text, status:false}))
          disptach(addTodoLoading())
+         
 
       axios.post("http://localhost:3001/todos", {
       

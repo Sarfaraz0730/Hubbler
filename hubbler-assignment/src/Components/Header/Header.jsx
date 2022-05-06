@@ -11,8 +11,9 @@ const Header = () => {
       const Month = showDate.getDate() + "/" + showDate.getMonth() +"/"+ showDate.getFullYear() + "  "+ showDate.getHours() + " : " + showDate.getMinutes() 
       console.log( "Month is here",Month)
       
-
-      setDate(date+ Month)
+      const newdate = date+Month
+      setDate(newdate)
+ 
     
     }
   return (
@@ -46,7 +47,7 @@ const Header = () => {
 
        {/* time  */}
        <div><p className='date'>App Saved on   {date}  </p> </div>
-       <div>   <button onClick={dateChange}    className='button'>Done</button> 
+       <div>   <button  onClick={dateChange}    className='button'>DONE</button> 
  
         </div>
          </div>

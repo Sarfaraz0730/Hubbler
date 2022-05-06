@@ -1,0 +1,9 @@
+.todosBtn{
+    height: 30px;
+    width: 120px;
+    border: none;
+    text-align: center;
+    background-color:#fff;
+    margin: 5px;
+    padding: 3px;
+}
