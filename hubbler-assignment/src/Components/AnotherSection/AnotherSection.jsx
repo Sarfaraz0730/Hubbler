@@ -9,7 +9,7 @@ const AnotherSection = () => {
 
         <button className="urgentButton" >START NEW APP</button>
        </div>
-        <br /><br />
+        <br /><br />  
    <div   className='urgentbtndiv'> <button   className='urgentButton' >Add Another Section</button></div>
     </div>
   )
