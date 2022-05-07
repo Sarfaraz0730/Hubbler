@@ -3,6 +3,7 @@ import { addTodo, addTodoLoading, addTodoLoadingSuccess, getTodoLoading, getTodo
 import { useEffect, useState } from "react"
 import axios from 'axios'
 import './Todos.css'
+import { FaToggleOn} from 'react-icons/fa';
 
 
 const Todos = () => {
@@ -36,9 +37,9 @@ const Todos = () => {
     <div>
    <hr />
    
-   <input onChange={ (e) => setText(e.target.value)}       type="text"  placeholder="Enter Rule"  required  />
+   <input onChange={ (e) => setText(e.target.value)}       type="text"  placeholder=" Default Rule"  required  className="inputbox"  />
    <br />
-   <button  className="todosBtn"  onClick={() =>{
+   <button  className="urgentButton"  onClick={() =>{
       //  disptach(addTodo({id:Date.now(),title:text, status:false}))
          disptach(addTodoLoading())
          
@@ -59,8 +60,10 @@ const Todos = () => {
    <br /><br />
 
 
-    <div>{data.map((e)=>(<div key={e.id}  style={{background:"pink" , color:"black"}} >
-        {e.title} { e.status} </div>))} </div>
+    <div>
+      
+      {data.map((e)=>(<div key={e.id}  >
+        {e.title} { e.status}  <FaToggleOn/>  </div>))}   </div>
     </div>
   )
 }

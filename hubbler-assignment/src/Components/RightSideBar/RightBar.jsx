@@ -1,6 +1,6 @@
 import AnotherSection from '../AnotherSection/AnotherSection'
 import './RightSide.css'
-
+import { FaTrashAlt } from 'react-icons/fa';
 const RightBar = () => {
   return (
    
@@ -15,6 +15,7 @@ const RightBar = () => {
      <div className='flexselect'>
        <div>  <select name="" className='selectbox'>
          <option value="if All"> If All</option>
+         <option value="If None"> If None</option>
        </select> </div>
        <div className='condition'> <p>of the Condition are met : </p> </div>
        </div> 
@@ -25,6 +26,7 @@ const RightBar = () => {
        <div className='lotsOfButtonInaRow'>
           <div  className='condition' ><select  className='selectbox1' >
             <option value="Text"> Text </option>
+            <option value="Number"> Number </option>
           </select>
           </div>
 
@@ -36,7 +38,7 @@ const RightBar = () => {
 
           <div  className='urgentbtndiv'> <button className='urgentButton'>Urgent</button> </div>
           <div> <input   className='inputbox1'  type="text" name="" id=""  placeholder='type to search & add' />  </div>
-          <div> <input   className='inputbox2'  type="text" name="" id=""  placeholder='add from List' />  </div>
+          <div> <input   className='inputbox2'  type="text" name="" id=""  placeholder='add from List' /> <FaTrashAlt/> </div>
           <div></div>
           <div></div>
        </div>

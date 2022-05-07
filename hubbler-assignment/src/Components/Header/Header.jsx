@@ -47,7 +47,7 @@ const Header = () => {
 
        {/* time  */}
        <div><p className='date'>App Saved on   {date}  </p> </div>
-       <div>   <button  onClick={dateChange}    className='button'>DONE</button> 
+       <div className='urgentbtndiv1'>   <button  onClick={dateChange}    className='urgentButton'>DONE</button> 
  
         </div>
          </div>
