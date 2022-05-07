@@ -12,7 +12,8 @@ const Header = () => {
       console.log( "Month is here",Month)
       
       const newdate = date+Month
-      setDate(newdate)
+      setDate(newdate ? newdate:"")
+     
  
     
     }

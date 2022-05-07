@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import axios from 'axios'
 import './Todos.css'
 import { FaToggleOn} from 'react-icons/fa';
+import TodoList from "./TodoList"
 
 
 const Todos = () => {
@@ -63,7 +64,10 @@ const Todos = () => {
     <div>
       
       {data.map((e)=>(<div key={e.id}  >
-        {e.title} { e.status}  <FaToggleOn/>  </div>))}   </div>
+        {e.title} { e.status}  <FaToggleOn/>  </div>))}  
+     
+        
+         </div>
     </div>
   )
 }
